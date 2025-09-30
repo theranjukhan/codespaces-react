@@ -8,6 +8,9 @@ import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import { CartProvider } from './context/CartContext';
+import SuperShopee1 from './pages/Dashboard/SuperShopee1';
+import SuperShopee1Analytics from './pages/Dashboard/SuperShopee1Analytics';
+import SuperShopee1Settings from './pages/Dashboard/SuperShopee1Settings';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
               <Route path="/products/:id" element={<ProductDetails />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/checkout" element={<Checkout />} />
+              <Route path="/dashboard" element={<SuperShopee1 />} />
+              <Route path="/dashboard/analytics" element={<SuperShopee1Analytics />} />
+              <Route path="/dashboard/settings" element={<SuperShopee1Settings />} />
             </Routes>
           </main>
           <Footer />
