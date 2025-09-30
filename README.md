@@ -1,12 +1,58 @@
-# GitHub Codespaces ♥️ React
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+# Super Shope 🛒
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+Welcome to **Super Shope**, a modern e-commerce demo built with React and Vite!
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## Features
 
-This project was bootstrapped for you with [Vite](https://vitejs.dev/).
+- Homepage with branding
+- Product listing with sample data
+- Product details page
+- Shopping cart with add/clear functionality
+- Simple checkout page
+- Responsive, clean design
+
+## Getting Started
+
+### Install dependencies
+
+```
+npm install
+```
+
+### Run the development server
+
+```
+npm start
+```
+
+Open [http://localhost:3000/](http://localhost:3000/) to view the app.
+
+### Build for production
+
+```
+npm run build
+```
+
+### Run tests
+
+```
+npm test
+```
+
+## Project Structure
+
+- `src/pages/` — Main pages (Home, Products, ProductDetails, Cart, Checkout)
+- `src/components/` — Navbar, Footer, and shared UI
+- `src/context/` — Cart context for state management
+- `src/data/` — Sample product data
+
+## Customization
+
+You can add more products in `src/data/products.js` or enhance the UI as you like!
+
+---
+This project was bootstrapped with [Vite](https://vitejs.dev/).
 
 ## Available Scripts
 
